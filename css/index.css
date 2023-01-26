@@ -9,6 +9,8 @@
     position:fixed;
 
 }
+.video-container video{
+    filter:brightness(70%);
 
 body{
     color:red;
