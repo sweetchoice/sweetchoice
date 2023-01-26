@@ -1,3 +1,13 @@
+
+
+function sendmsg(){
+   var no =  document.querySelector('#textfield').value
+   var order = document.getElementById("orderid").value;
+   var amount = document.getElementById("pricebutton").value;
+   var msg = "TQ FOR CHOOSING SWWET CHOICE ,YOUR ORDER ID : "+order+","+" AND THE AMOUNT : "+amount+","+" HTTPS://sweetchoice.github.io/sweetchoice CLICK ON THE ABOVE LINK FOR FREE HOME DELIVERY :)";
+   var link = "https://api.whatsapp.com/send?phone="+no+"&text="+msg;
+   window.location.href = link;
+}
 function opennav() {
     
     var checkBox = document.getElementById("myCheck");
