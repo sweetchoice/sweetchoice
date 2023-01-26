@@ -7,10 +7,12 @@
 }
 .video-container{
     position:fixed;
+    
 
 }
 .video-container video{
-    filter:brightness(70%);
+filter: brightness(70%);
+}
 
 body{
     color:red;
