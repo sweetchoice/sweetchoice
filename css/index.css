@@ -204,7 +204,7 @@ padding-right:50vh;
 }
 .suborderitems2{
     position: fixed;
-    left:2vh;
+    left:3vh;
     right:2vh;
     top:35vh; 
     display:block;
@@ -226,7 +226,7 @@ padding-right:50vh;
     display: block;
     position: fixed;
     top:60vh;
-    margin-left:30vh;
+    margin-left:25vh;
     margin-top:2vh;
     width:100%;
 }
