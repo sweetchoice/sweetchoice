@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src = "js/index.js"></script>
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="css/indexbig.css">
+    <title>SWEET CHOICE🍔</title>
+</head>
+<body>
+    
+    <div>
+        <diV class="video-container">
+            <video  loop muted autoplay playsinline poster class="video">
+                <source src="http://punkt-gdynia.pl/wp-content/themes/wp-punkt/video/punkt_home.mp4" type="video/mp4">
+            </video>
+    
+        </diV>
+        <div class="menudiv">
+            <input type="checkbox" id="myCheck" ">
+           <label onclick="opennav()" for="myCheck" ><i id="menuicon" class="fa fa-bars"></i></label> 
+           
+        </div>
+        <div id="brandname" class="toplabel">
+      
+            <label id="brandname" class="brandname"> SWEET <span>CHOICE🍔</span></label>
+    
+        </div>
+
+        <div id="sidenav"  class="sidenav">
+            <li class="homeside"><a href="#">HOME</a></li>
+            <li class="aboutus"><a href="#">MENU</a></li>
+            <li><a href="#">ORDERS</a></li>
+            <li><a href="#">FAQS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+            <li><a href="#" >SETTINGS</download></li>
+            <div class="sidesocialicons"> 
+                <ul>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-google"></a>
+                </ul>
+            </div>
+            <li  class="copyright"><label>SHAIK AFRID 2022 © </label></li>
+        </div>
+        
+        <div class="img" id="orderid2">
+            <input id="orderid" type="button" value="ORDER ID">
+        </div>
+
+        <div class="orderitems1" id="orderitems1">
+            <select  id="maindrop" onchange="run1()" name="orderitems" id="orderitems">
+                
+                <option selected value="1" name="BIRIYNI">BIRIYNI</option>
+                <option value="2" name="PIZZA">PIZZA</option>
+                <option value="3" name="FAST FOOD">FAST FOOD</option>
+                <option value="4" name="BURGERS">BURGERS</option>
+                <option value="5" name="SWEETS">SWEETS</option>
+                <option value="6" name="CAKES">CAKES</option>
+            </select>
+            </div>
+            <div class="suborderitems2" id="suborderitems2">
+            <select onchange="run2()" id="maindrop2" name="suborderitems" id="suborderitems">
+                <option id="ab" value="1" name="">DUM BIRIYANI</option>
+                <option id="bc" value="2" name="">FRY BIRIYANI</option>
+                <option id="cd" value="3" name="">NORMAL BIRIYANI</option>
+                <option id="de" value="4" name="">WINGS BIRIYANI</option>
+                <option id="ef" value="5" name="">FISH BIRIYANI</option>
+                <option id="fg" value="6" name="">FRANCE BIRIYANI</optio>
+            </select>
+            
+        </div>
+        <div class="price1" id="price1">
+            <input id="pricebutton" type="button" value="INR ₹ ">
+
+        </div>
+        
+        <div class="amount" id="amountd">
+            <input  id="textfield" type="text" placeholder=" ENTER PHONE NUMBER">
+
+        </div>
+        <div id = "sendbu" class="sendbu">
+            <input  type="button" onclick="sendmsg()" value="SEND"> 
+        </div>
+    </div>
+    
+    
+</body>
+</html>
