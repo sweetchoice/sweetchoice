@@ -184,7 +184,7 @@ padding-right:50vh;
 }
 .orderitems1{
     position:fixed;
-    right:13vh;
+    right:10vh;
     top:20vh;
     display:block;
 
@@ -213,7 +213,7 @@ padding-right:50vh;
     font-size: 14px;
     border:solid white;
     border-radius: 10px;
-    width:42vh;
+    width:40vh;
     height:6vh;
     text-align: center;
     font-weight: 700;
